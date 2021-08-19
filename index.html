@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Test</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+</head>
+
+<body>
+
+    <!-- <div class="carousel">
+        <button class="carousel-button carousel_button--left is-hidden">prev</button>
+        <div class="carousel_track-container">
+            <ul class="carousel_track">
+                <li class="carousel_slide current-slide">
+                    <img class="carousel_image"
+                        src="https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/8/8a/Kyojuro%27s_introduction_%28anime%29.png/revision/latest?cb=20190831164755"
+                        alt="First slide">
+                </li>
+                <li class="carousel_slide">
+                    <img class="carousel_image"
+                        src="https://static.wikia.nocookie.net/jujutsu-kaisen/images/5/53/Satoru_Gojo_%28Full%29.png/revision/latest?cb=20201025015309"
+                        alt="Second slide">
+                </li>
+                <li class="carousel_slide">
+                    <img class="carousel_image"
+                        src="https://mocah.org/uploads/posts/904313-anime-anime-boys-Jujutsu-Kaisen-Yuji-Itadori-Sakuna.jpg"
+                        alt="Third slide">
+                </li>
+                <li class="carousel_slide">
+                    <img class="carousel_image"
+                        src="https://fiverr-res.cloudinary.com/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/185498494/original/9414e7883d8b4214147a962c2ba2c2ad45a82c78.jpg"
+                        alt="Third slide">
+                </li>
+                <li class="carousel_slide">
+                    <img class="carousel_image"
+                        src="https://variety.com/wp-content/uploads/2015/07/naruto_movie-lionsgate.jpg?w=681&h=383&crop=1"
+                        alt="Third slide">
+                </li>
+            </ul>
+        </div>
+        <button class="carousel-button carousel_button--right">next</button>
+
+        <div class="carousel_nav">
+            <button class="carousel_indicator current-slide"></button>
+            <button class="carousel_indicator"></button>
+            <button class="carousel_indicator"></button>
+            <button class="carousel_indicator"></button>
+            <button class="carousel_indicator"></button>
+        </div>
+    </div> -->
+
+    <div class="carousel">
+        <button class="carousel-button carousel_button--left is-hidden"><i class="fas fa-chevron-left"></i></button>
+        <div class="carousel_track-container">
+            <ul class="carousel_track">
+                <li class="carousel_slide current-slide" data-find="rengoku">
+                    <img class="carousel_image"
+                        src="https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/8/8a/Kyojuro%27s_introduction_%28anime%29.png/revision/latest?cb=20190831164755"
+                        alt="First slide">
+                </li>
+                <li class="carousel_slide" data-find="gojo">
+                    <img class="carousel_image"
+                        src="https://static.wikia.nocookie.net/jujutsu-kaisen/images/5/53/Satoru_Gojo_%28Full%29.png/revision/latest?cb=20201025015309"
+                        alt="Second slide">
+                </li>
+                <li class="carousel_slide" data-find="yuji">
+                    <img class="carousel_image"
+                        src="https://mocah.org/uploads/posts/904313-anime-anime-boys-Jujutsu-Kaisen-Yuji-Itadori-Sakuna.jpg"
+                        alt="Third slide">
+                </li>
+                <li class="carousel_slide" data-find="izuku">
+                    <img class="carousel_image"
+                        src="https://fiverr-res.cloudinary.com/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/185498494/original/9414e7883d8b4214147a962c2ba2c2ad45a82c78.jpg"
+                        alt="Third slide">
+                </li>
+                <li class="carousel_slide" data-find="naruto">
+                    <img class="carousel_image"
+                        src="https://variety.com/wp-content/uploads/2015/07/naruto_movie-lionsgate.jpg?w=681&h=383&crop=1"
+                        alt="Third slide">
+                </li>
+            </ul>
+        </div>
+        <button class="carousel-button carousel_button--right"><i class="fas fa-chevron-right"></i></button>
+
+
+        <div class="carousel_nav second-carousel_nav">
+            <button class="carousel_indicator current-slide-btn">rengoku</button>
+            <button class="carousel_indicator">gojo</button>
+            <button class="carousel_indicator">yuji</button>
+            <button class="carousel_indicator">izuku</button>
+            <button class="carousel_indicator">naruto</button>
+        </div>
+    </div>
+
+
+
+    <script src="./js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
